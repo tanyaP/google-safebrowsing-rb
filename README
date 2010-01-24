@@ -1,0 +1,18 @@
+= Ruby Google Safe Browsing API
+By: Dirceu Pauka Júnior
+
+The Safe Browsing API is an experimental API that enables client applications to check URLs against Google's constantly updated blacklists of suspected phishing and malware pages. Your client application can use the API to download an encrypted table for local, client-side lookups of URLs that you would like to check.
+
+This project consists of a daemon that keeps a local list of Google's blacklists and a client that allows your application to check a URL.
+
+Use Tokyo Cabinet as hash list storage.
+
+How to use?
+
+Soon.
+
+.
+
+or read the source.
+
+sudo ttserver -port 1800 safebrowsing.tch#opts=lb
